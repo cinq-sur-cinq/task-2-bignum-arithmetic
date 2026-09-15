@@ -1,2 +1,36 @@
-# task-2-bignum-arithmetic
-Implement arbitrary-precision integer arithmetic with addition, subtraction, multiplication, and integer division.
+# Задание 2. Длинная арифметика
+
+## Условие задачи
+
+Реализовать длинную арифметику для целых чисел с операциями сложения, вычитания, умножения и целочисленного деления.
+
+**Комментарий:** длинная арифметика уже реализована в классе `int`. Тем не менее, предлагается задаться основанием системы счисления `M` и максимальной разрядностью `N` и реализовать перечисленные операции для представлений длинных чисел в этой системе счисления.
+
+В программе используются `M = 10` и `N = 100`.
+
+## Запуск
+
+### 1. Клонируйте репозиторий
+
+```bash
+git clone https://github.com/cinq-sur-cinq/task-2-bignum-arithmetic.git
+cd task-2-bignum-arithmetic
+```
+
+### 2. Запустите программу
+
+macOS/Linux:
+
+```bash
+python3 bignum.py
+```
+
+Windows:
+
+```powershell
+python bignum.py
+```
+
+## Зависимости
+
+Требуется только Python 3. Сторонние библиотеки не используются.
